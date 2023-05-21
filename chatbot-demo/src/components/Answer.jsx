@@ -7,13 +7,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Answer = () => {
+const Answer = (props) => {
   // 後々使うので一旦コメントアウト
   // const classes = useStyles();
   return(
-    <Button variant="contained">Default</Button>
+    <Button variant="contained" color="primary">
+      {props.content}
+    </Button>
   )
-
 }
 
 export default Answer
