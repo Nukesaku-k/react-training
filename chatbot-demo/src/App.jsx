@@ -14,7 +14,7 @@ export default class App extends React.Component {
       dataset: defaultDataset,
       open: false
     };
-    this.selectAnswer = this.selectAnswer.bind(this);
+    // this.selectAnswer = this.selectAnswer.bind(this);
   }
 
   displayNextQuestion = (nextQuestionId) => {
